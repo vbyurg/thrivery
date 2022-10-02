@@ -1,0 +1,77 @@
+html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, font, img,
+s, small, strike, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, button,
+form, fieldset, article, aside, footer, header, nav, section, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: none;
+	list-style: none;
+	font-family: Larsseit;
+	font-size: 16px;
+}
+
+html * {
+	max-height: 1000000px;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}

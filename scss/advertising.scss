@@ -1,0 +1,23 @@
+.advertising {
+	background: url('/img/contact.jpg'), linear-gradient(to right, #62D0DF 70%, white 20%);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.advertising__title {
+	padding: 150px 0 75px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 23px;
+	letter-spacing: -0.006em;
+	color: #FFFFFF;
+}
+
+.advertising__text {
+	max-width: 40%;
+	padding-bottom: 95px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
