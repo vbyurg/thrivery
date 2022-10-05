@@ -1,12 +1,11 @@
 .hero {
-	height: 100vh;
 	background: linear-gradient(to right, #F4F9E2 80%, #EDFDFF 20%);
 	padding: 114px 0 70px 0;
 	overflow: hidden;
 }
 
 .hero__container {
-	gap: 40px;
+	justify-content: space-between;
 }
 
 .hero__content {
